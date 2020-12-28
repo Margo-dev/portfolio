@@ -1,0 +1,43 @@
+h3{
+    font-size: 50px;
+    color: #cc170a;
+    padding-top: 70px;
+}
+h4{
+    font-size: 40px;
+    color: #cc170a;
+    padding: 30px 0;
+}
+.info{
+    color: #040821;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.info ul{
+    list-style: none;
+}
+.info img{
+    max-width: 70px;
+    margin-right: 20px;
+}
+.info img {
+    animation: 2s linear 1s normal none infinite running rot;
+    -webkit-animation: 2s linear 1s normal none infinite running rot;
+    width: 100px;
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

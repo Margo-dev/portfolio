@@ -1,0 +1,16 @@
+h2{
+    font-size: 50px;
+    color: #cc170a;
+    padding-top: 70px;
+}
+.work-text{
+    font-size: 30px;
+    color: #040821;
+}
+.work-item{
+    border: 2px solid #306f92;
+    margin: 100px 20px 100px 20px;
+}
+.work-items img{
+    width: 350px;
+}

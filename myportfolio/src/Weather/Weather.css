@@ -1,0 +1,40 @@
+
+.predict{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.city-name{
+    padding-top: 20px;
+    font-size: 50px;
+}
+.form-control{
+    width: 50%;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.btn{
+    font-size: 20px;  
+}
+
+.weather{
+    margin: 50px;
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.temp{
+    color: black;
+}
+.cart-body{
+    color: black;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus{
+    border: 1px solid #17a2b8;
+  -webkit-text-fill-color: #040821;
+  transition: background-color 5000s ease-in-out 0s
+}

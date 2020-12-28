@@ -1,0 +1,66 @@
+.container-game{
+  background: url('../image/kot-koshka-zvezdochet-kolpak-nebo-noch.jpg') no-repeat;
+  background-size: cover;
+}
+.tao{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 500px;
+    padding: 100px;
+  }
+  
+  .ttr{
+    border: 4px solid #d9e7fc;
+    max-width: 100px;
+    min-height: 100px;
+    font-size: 60px;
+    font-style: italic;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #e6ede8;
+    /* background: #d9e7fc; */
+  }
+  .btn_option{
+    margin: 0px 40px;
+    width: 150px;
+    color: #e6ede8;
+    background:  #040821;
+    font-size: 30px;
+  }
+  .score{
+    font-size: 30px;
+    padding-left: 100px;
+  }
+  .score span{
+      color:  #e6ede8;;
+      margin-right: 10px;
+  }
+  .score_item{
+    color: #cc170a;
+    font-weight: bold;
+    margin: 10px;
+    display: inline-block;
+  }
+
+  .select-game{
+    width: 150px;
+    color:#cc170a;
+    font-weight: bold;
+  }
+  .option{
+   padding-bottom: 70px;
+   font-size: 30px;
+   margin-left: 40px;
+  }
+  option{
+    font-weight: bold; 
+    
+  }
+  .winner{
+    color: #cc170a;
+    font-size: 30px;
+    margin: 0 150px;
+  }

@@ -1,0 +1,29 @@
+.siteNav{
+  background:#306f92;
+}
+nav{
+  padding: 30px 0 30px;
+}
+.logo{
+  text-align: center;
+  font-family: 'Nerko One', cursive;
+  font-size: 50px;
+}
+span{
+  color: #cc170a;
+}
+.menu{
+  padding-top: 30px;
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+ 
+}
+.menu_item a{
+  margin-right: 35px;
+  color:#e6ede8;
+}
+.menu_item a:hover{
+  color: #cc170a;
+  text-decoration: none;
+}
